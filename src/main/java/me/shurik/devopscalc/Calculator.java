@@ -10,7 +10,7 @@ public class Calculator implements ICalculator {
 
     @Override
     public double add(double a, double b) {
-        return a + a;
+        return a + b;
     }
 
     @Override
