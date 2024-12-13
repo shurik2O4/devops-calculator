@@ -1,8 +1,10 @@
 package me.shurik.devopscalc.api;
 
+import me.shurik.devopscalc.Calculator;
+
 public interface ICalculator {
     static ICalculator getInstance() {
-        throw new UnsupportedOperationException("Not implemented");
+        return Calculator.INSTANCE;
     }
 
     double add(double a, double b);
